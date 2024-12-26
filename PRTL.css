@@ -6,20 +6,36 @@
 	src: url("fonts/UniversLTStd.woff");
 }
 
+
 body {
 	background-image: linear-gradient(#ff9a00, #ff5d00);
 	background-attachment: fixed;
-}
-
-.logo img {
-	display: block;
-	width: 1200px;
-	margin: auto;
-}
-
-body {
 	font-family: portal;
 }
+
+.header img {
+	display: block;
+	width: 400px;
+	margin-left: 40px;
+	margin-top: -50px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 259px;
+	align-items:center;
+	padding-right: 230px;
+	font-size: 30px;
+	color: #58595B;
+	background-color: black;
+}
+
+.header p1 {
+	margin-top: 100px;
+	color: white
+}	
 
 h1 {
 	color: #58595B;
@@ -28,6 +44,6 @@ h1 {
 .welcome {
 	margin: auto;
 	width: 50%;
-	padding: 10px;
+	padding-top: 10px;
 	text-align: center;
 }
