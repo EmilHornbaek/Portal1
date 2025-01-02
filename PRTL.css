@@ -35,7 +35,7 @@ body {
 .header p1, a  {
 	margin-top: 100px;
 	color: white;
-	text-decoration:underline;
+	text-decoration: underline;
 	text-decoration-color: #78fdfd; /*light blue*/
 }	
 
@@ -48,4 +48,22 @@ h1 {
 	width: 50%;
 	padding-top: 10px;
 	text-align: center;
+}
+
+.abtsec p1 {
+	display: block;
+	text-align: center;
+
+}
+
+.abtsec img {
+	
+	display: inline-block;
+	position: relative;
+	width: 700px;
+	text-align: center;
+	
+	
+	
+
 }
