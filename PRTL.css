@@ -17,42 +17,116 @@ body {
 	display: block;
 	width: 400px;
 	margin-left: 40px;
-	margin-top: -50px;
+	margin-top: 10px;
 }
 
 .header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 259px;
-	align-items:center;
+	height: 220px;
+	align-items: center;
 	padding-right: 230px;
 	font-size: 30px;
 	color: #58595B;
 	background-color: black;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
 }
 
-.header p1, a  {
-	margin-top: 100px;
+
+.header a  {
+	margin-top: 135px;
 	color: white;
 	text-decoration: underline;
 	text-decoration-color: #78fdfd; /*light blue*/
 }	
 
-h1 {
-	color: #58595B;
+.header a:hover {
+	text-decoration-color: #ff9a00; /*light orange*/
 }
+
+.header a:active {
+	color: #78fdfd; /*light blue*/
+}
+
+
+
+
+.footer {
+	position:relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	bottom: 0;
+	height: 250px;
+	background-color: black;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	
+}
+
+.footer img {
+	display: block;
+	height: 100px;
+	
+}
+
+.footer a {
+	display: block;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 80px;
+	
+}
+
+.footer p3 {
+	
+	width: 500px;
+	padding-top: 120px;
+	padding-right: 50px;
+	font-size: 15px;
+	color: white;
+	text-align: right;
+}
+
+h2 {
+	color: #58595B;
+	font-size: 60px;
+}
+
 
 .welcome {
 	margin: auto;
 	width: 50%;
-	padding-top: 10px;
 	text-align: center;
 }
 
-.abtsec p1 {
+
+/* INDEX SECTION */
+
+.index {
+
+	height: 600px;
+	font-size: 20px;
+	padding-left: 90px;
+	padding-right: 90px;
+	text-align: center;
+	
+}
+
+
+/* ABOUT SECTION */
+
+.abtsec {
 	display: block;
 	text-align: center;
+	height: 1500px;
+	font-size: 20px;
+	padding-left: 90px;
+	padding-right: 90px;
 
 }
 
@@ -61,9 +135,6 @@ h1 {
 	display: inline-block;
 	position: relative;
 	width: 700px;
-	text-align: center;
+	padding: 5px;
 	
-	
-	
-
 }
