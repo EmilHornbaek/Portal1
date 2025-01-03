@@ -218,7 +218,7 @@ h2 {
 .rtxpics img {
 	width: 550px;
 	position:relative;
-	padding: 1px;
+	padding: 2px;
 	border: #78fdfd /*light blue*/ solid 2px;
 }
 
@@ -247,7 +247,7 @@ h2 {
 .rtxpics2 img {
 	width: 550px;
 	position:relative;
-	padding: 1px;
+	padding: 2px;
 	border: #78fdfd /*light blue*/ solid 2px;
 	
 }
@@ -268,12 +268,14 @@ h2 {
 	
 	width: 750px;
 	margin: 5px;
-	padding: 1px;
-	border: #78fdfd solid 2px; 
+	padding: 2px;
+	border: #78fdfd /*light blue*/ solid 2px; 
 }
 
 .caption {
 	display: block;
 }
 
+
+/*REVIEW SECTION*/
 
