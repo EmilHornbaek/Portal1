@@ -68,8 +68,8 @@ body {
 .glad img {
 	width: 150px;
 	
-	
 }
+
 
 .header a  {
 	margin-top: 135px;
@@ -86,7 +86,15 @@ body {
 	color: #78fdfd; /*light blue*/
 }
 
+.current {
+	margin-top: 135px;
+	
+}
 
+.current a {
+	text-decoration-color: #ff9a00; /*light orange*/
+	
+}
 
 
 .footer {
@@ -129,13 +137,18 @@ body {
 
 h1 {
 	color: #58595B; /*Gray*/
-	font-size: 100px;
+	font-size: 130px;
 }
 
-h2 {
+h3 {
 	color: #58595B; /*Gray*/
 	font-size: 60px;
 	text-decoration: underline;
+}
+
+p2 {
+	
+	color: black;
 }
 
 
@@ -143,7 +156,7 @@ h2 {
 	margin: auto;
 	width: 90%;
 	text-align: center;
-	border-bottom: black solid 3px;
+	border-bottom: #58595B/*Gray*/ solid 3px;
 }
 
 
@@ -250,6 +263,13 @@ h2 {
 	padding: 2px;
 	border: #78fdfd /*light blue*/ solid 2px;
 	
+}
+
+.comphead {
+	
+	text-align: center;
+	color: #58595B; /*Gray*/
+	font-size: 80px;
 }
 
 .compbox {
