@@ -127,9 +127,15 @@ body {
 	text-align: right;
 }
 
+h1 {
+	color: #58595B; /*Gray*/
+	font-size: 100px;
+}
+
 h2 {
-	color: #58595B;
+	color: #58595B; /*Gray*/
 	font-size: 60px;
+	text-decoration: underline;
 }
 
 
@@ -199,18 +205,13 @@ h2 {
 	
 }
 
-.portalrtxtxt p2 {
-	
-	
-}
-
 
 .rtxpics {
 	display: inline-block;
-	width: 500px;
+	width: 550px;
 	height: 720px;
 	margin-left:62%;
-	padding-top: 30px;
+	padding-top: 100px;
 }
 
 
@@ -228,7 +229,7 @@ h2 {
 	width: 50%;
 	font-size: 20px;
 	text-align: center;
-	margin-left: 80px;
+	margin-left: 100px;;
 	padding-top: 30px;
 	padding-left: 10px;
 	
@@ -236,10 +237,10 @@ h2 {
 
 .rtxpics2 {
 	display: inline-block;
-	width: 500px;
+	width: 550px;
 	height: 720px;
-	margin-left:62%;
-	padding-top: 30px;
+	margin-left: 120px;
+	padding-top: 100px;
 }
 
 
@@ -250,3 +251,29 @@ h2 {
 	border: #78fdfd /*light blue*/ solid 2px;
 	
 }
+
+.compbox {
+	text-align: center;
+}
+
+.comparison {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 30px;
+	
+	
+}
+
+.comparison img {
+	
+	width: 750px;
+	margin: 5px;
+	padding: 1px;
+	border: #78fdfd solid 2px; 
+}
+
+.caption {
+	display: block;
+}
+
+
