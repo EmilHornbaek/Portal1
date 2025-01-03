@@ -15,8 +15,9 @@ body {
 
 .header img {
 	display: block;
-	width: 400px;
+	width: 350px;
 	margin-left: 40px;
+	margin-right: -160px;
 	margin-top: 10px;
 }
 
@@ -26,7 +27,6 @@ body {
 	justify-content: space-between;
 	height: 220px;
 	align-items: center;
-	padding-right: 230px;
 	font-size: 30px;
 	color: #58595B;
 	background-color: black;
@@ -35,6 +35,41 @@ body {
 	margin-top: -10px;
 }
 
+.prtllft {
+	margin-right: -70px;
+	
+}
+
+.prtllft img {
+	
+	width: 30px;
+	padding-top: 90px;
+}
+
+.prtlrght {
+	margin-left: -178px;
+	
+	
+}
+
+.prtlrght img {
+	
+	width: 30px;
+	padding-top: 90px;
+}
+
+.glad {
+	width: 250px;
+	height: 270px;
+	margin-right: 35px;
+	margin-left: -35px;
+}
+
+.glad img {
+	width: 220px;
+	
+	
+}
 
 .header a  {
 	margin-top: 135px;
