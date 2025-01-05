@@ -162,10 +162,38 @@ p2 {
 
 /* INDEX SECTION */
 
+.aperture {
+	
+	display: block;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 80px;
+	
+}
+
+.aperture img {
+	
+	width: 1000px;
+	margin-bottom: -40px;
+	
+}
+
+
+.menupic {
+	text-align: center;
+	margin: 20px;
+}
+
+.menupic img {
+	width: 1600px;
+	padding: 1px;
+	border: #78fdfd /*light blue*/ solid 2px;
+}
+
 .indexsec {
 
 	height: 600px;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
 	margin-left: 80px;
 	margin-right: 80px;
@@ -210,7 +238,7 @@ p2 {
 	position:absolute;
 	height: 700px;
 	width: 50%;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	margin-left: 80px;
 	padding-top: 30px;
@@ -238,11 +266,11 @@ p2 {
 .portalrtxtxt2 {
 	display:inline-block;
 	position:absolute;
-	height: 700px;
+	height: 840px;
 	width: 50%;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
-	margin-left: 100px;;
+	margin-left: 50px;;
 	padding-top: 30px;
 	padding-left: 10px;
 	
@@ -250,8 +278,8 @@ p2 {
 
 .rtxpics2 {
 	display: inline-block;
-	width: 550px;
-	height: 720px;
+	width: 600px;
+	height: 800px;
 	margin-left: 120px;
 	padding-top: 100px;
 }
@@ -316,14 +344,30 @@ p2 {
 	display: block;
 	font-size: 20px;
 	text-align: right;
-	padding-right: 30px;
+	padding-right: 40px;
+	padding-top: 20px;
+	
 }
 
 .sig2 {
 	display: block;
 	font-size: 20px;
 	text-align: left;
-	padding-left: 40px;
+	padding-left: 70px;
+	padding-top: 20px;
+}
+
+
+.sig a, .sig2 a {
+	
+	text-decoration-color: #78fdfd /*light blue*/;
+	color: black;
+}
+
+.sig a:hover, .sig2 a:hover {
+	
+	text-decoration:none;
+	
 }
 
 
