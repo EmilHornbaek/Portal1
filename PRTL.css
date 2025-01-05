@@ -66,8 +66,13 @@ body {
 }
 
 .glad img {
-	width: 150px;
+	display: inline-block;
+	width: 200px;
 	
+}
+
+.glad a {
+	width: 200px;
 }
 
 
@@ -184,6 +189,14 @@ p2 {
 	text-align: center;
 	margin-bottom: 50px;
 	border-bottom: #58595B/*Gray*/ solid 3px;
+}
+
+.break {
+	margin: auto;
+	width: 75%;
+	text-align: center;
+	margin-bottom: 50px;
+	border-bottom: #58595B/*Gray*/ solid 2px;
 }
 
 
@@ -376,7 +389,7 @@ p2 {
 
 .sig {
 	display: block;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: right;
 	padding-right: 40px;
 	padding-top: 20px;
@@ -385,7 +398,7 @@ p2 {
 
 .sig2 {
 	display: block;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: left;
 	padding-left: 70px;
 	padding-top: 20px;
