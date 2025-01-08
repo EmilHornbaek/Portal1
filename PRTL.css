@@ -13,6 +13,14 @@ body {
 	font-family: portal;
 }
 
+html, body {
+    height: 100%;
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+	
 .header img {
 	display: block;
 	width: 350px;
@@ -26,12 +34,11 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	height: 220px;
-	width: 100%;
+	width: 100vw;
 	align-items: center;
 	font-size: 30px;
 	color: #58595B;
 	background-color: black;
-
 	margin-top: -10px;
 }
 
@@ -102,6 +109,13 @@ body {
 	
 }
 
+.content {
+	
+	width: 100vw;
+	margin: 0 auto;
+	min-height: calc(100%vh - 220px - 100px)
+}
+
 
 .footer {
 	position:relative;
@@ -109,7 +123,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	bottom: 0;
-	height: 250px;
+	width: 100vw;
 	background-color: black;
 	margin-bottom: -10px;
 	margin-left: -10px;
@@ -233,7 +247,7 @@ p2 {
 
 .indexsec {
 
-	height: 500px;
+
 	font-size: 30px;
 	text-align: center;
 	margin-top: 40px;
@@ -253,14 +267,15 @@ p2 {
 .abtsec {
 	display: block;
 	text-align: center;
-	height: 1300px;
+	justify-content: center;
+	min-height: inherit;
 	font-size: 28px;
 	margin-left: 80px;
 	margin-right: 80px;
 	padding-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
-		border-left: #58595B/*Gray*/ solid 2px;
+	border-left: #58595B/*Gray*/ solid 2px;
 	border-right: #58595B/*Gray*/ solid 2px;
 
 }
@@ -278,21 +293,38 @@ p2 {
 
 /*PORTAL WITH RTX SECTION*/
 
-.portalrtxtxt {
-	display:inline-block;
-	position:absolute;
-	height: 760px;
-	width: 50%;
+.portalrtx1 {
+	
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.rtxtxt1 {
+	overflow:hidden;
+
+	width: 45vw;
 	font-size: 25px;
 	text-align: center;
 	margin-left: 80px;
 	padding-left: 10px;
+	padding-right: 10px;
 	border-left: #58595B/*Gray*/ solid 2px;
 	border-right: #58595B/*Gray*/ solid 2px;
 	
 }
 
 
+.rtxpix1 img {
+	width: 35vw;
+	margin-left: 60px;
+	display: block;
+	position: relative;
+	padding: 1px;
+	border: #78fdfd /*light blue*/ solid 2px;
+
+}
+	
 .rtxpics {
 	display: inline-block;
 	width: 550px;
@@ -377,7 +409,6 @@ p2 {
 
 .review {
 	
-	height: 200px;
 	font-size: 40px;
 	text-align: center;
 	margin-top: 30px;
@@ -462,5 +493,28 @@ p2 {
 
 .lie img, .lie2 img, .lie3 img, .lie4 img {
 	
-	width: 750px;
+	width: 45vh;
+}
+
+
+@media (max-width: 650px) {
+   
+	.footer {
+        padding: 10px;
+ }
+	
+	.rtxtxt1 {
+		width: 90vw;
+		margin-left: 10px;
+		
+	}
+	
+	.rtxpix1 img {
+		width: 90vw;
+		
+	}
+	
+	.portalrtx1 {
+		display: inline-block;
+	}
 }
