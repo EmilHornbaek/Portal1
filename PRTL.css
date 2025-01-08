@@ -26,12 +26,12 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	height: 220px;
+	width: 100%;
 	align-items: center;
 	font-size: 30px;
 	color: #58595B;
 	background-color: black;
-	margin-left: -10px;
-	margin-right: -10px;
+
 	margin-top: -10px;
 }
 
@@ -54,6 +54,7 @@ body {
 
 .prtlrght img {
 	
+	position:static;
 	width: 30px;
 	padding-top: 90px;
 }
