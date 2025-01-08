@@ -477,41 +477,50 @@ p2 {
 	border-left: solid black 10px;
 	border-right: solid black 10px;
 	
+	
+}
+
+
+.thecakeisa  {
+	text-align: center;
+	justify-content: center;
+	
 }
 
 .lie {
 	
 	text-align: center;
-	padding-right: 480px;
+	padding-right: 80px;
 	
 }
 
 .lie2 {
 	
 	text-align: center;
-	padding-left: 980px;
-	margin-top: -630px;
+	padding-left: 80px;
+	margin-top: 30px;
 	
 }
 
 .lie3 {
 	
 	text-align: center;
-	margin-top: -230px;
+	margin-top: 30px;
 	
 }
 
 .lie4 {
 	
 	text-align: center;
-	margin-top: -210px;
-	padding-right: 310px;
+	margin-top: 10px;
+	padding-right: 110px;
 	
 }
 
 .lie img, .lie2 img, .lie3 img, .lie4 img {
 	
-	width: 45vh;
+	width: 65vh;
+	position: static;
 }
 
 
