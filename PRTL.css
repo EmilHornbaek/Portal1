@@ -7,6 +7,7 @@
 }
 
 
+
 body {
 	background-image: linear-gradient(#ff9a00, #ff5d00); /*light orange to dark orange*/
 	background-attachment: fixed;
@@ -18,43 +19,106 @@ html, body {
 	width: 100%;
     display: flex;
     flex-direction: column;
-
+	
 }
 	
-.header img {
+* {
+	margin: 0;
+}
+
+.logo {
 	display: block;
-	width: 350px;
 	margin-left: 40px;
-	margin-right: -160px;
 	margin-top: 10px;
+	position: inherit;
+}
+
+.logo img {
+	
+	width: 20vw;
+
 }
 
 .header {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content:space-between;
 	height: 220px;
 	width: 100vw;
 	align-items: center;
+	text-align: center;
 	font-size: 30px;
 	color: #58595B;
 	background-color: black;
-	margin-top: -10px;
+	margin-top: -10px
 }
 
-.prtllft {
-	margin-right: -70px;
-	
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-between;
+	width: 50vw;
+}
+
+.menu-box {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 100%;
+}
+
+.menu-icon, .menu-icon::before, .menu-icon::after {
+	display: block;
+	background-color: #fbeeff;
+	height: 4px;
+	width: 30px;
+	position: absolute;
+	border-radius: 2px;
+	transition: transform .1s;
+}
+
+.menu-icon::before {
+	content: "";
+	margin-top: -8px;
+}
+
+.menu-icon::after {
+	content: "";
+	margin-top: 8px;
+}
+
+
+#menu-activate:checked + .menu-box .menu-icon::before {
+	margin-top: 0;
+	transform: rotate(45deg);
+}
+
+#menu-activate:checked + .menu-box .menu-icon::after {
+	margin-top: 0;
+	transform: rotate(-45deg);
+}
+
+#menu-activate:checked + .menu-box .menu-icon {
+	background-color: rgba(0,0,0,0);
+}
+
+#menu-activate {
+	display: none;
 }
 
 .prtllft img {
 	
-	width: 30px;
+	
+	width: 1.5vw;
 	padding-top: 90px;
+
+	
 }
 
 .prtlrght {
-	margin-left: -178px;
 	
 	
 }
@@ -62,7 +126,7 @@ html, body {
 .prtlrght img {
 	
 	position:static;
-	width: 30px;
+	width: 1.5vw;
 	padding-top: 90px;
 }
 
@@ -75,12 +139,12 @@ html, body {
 
 .glad img {
 	display: inline-block;
-	width: 200px;
+	width: 12vw;
 	
 }
 
 .glad a {
-	width: 200px;
+	width: 12vw;
 }
 
 
@@ -223,13 +287,13 @@ p2 {
 	text-align: center;
 	font-size: 35px;
 	margin-top: 80px;
+	width: 100vw;
 	
 }
 
 .aperture img {
 	
-	width: 1000px;
-	margin-bottom: -40px;
+	width: 80vw;
 	
 }
 
@@ -297,12 +361,13 @@ p2 {
 	
 	display: flex;
 	flex-direction: row;
+	text-align: center;
+	margin-left: 60px;
 	
 }
 
 .rtxtxt1 {
 	overflow:hidden;
-
 	width: 45vw;
 	font-size: 25px;
 	text-align: center;
@@ -325,53 +390,6 @@ p2 {
 
 }
 	
-.rtxpics {
-	display: inline-block;
-	width: 550px;
-	height: 720px;
-	margin-left:62%;
-	padding-top: 100px;
-}
-
-
-.rtxpics img {
-	width: 550px;
-	position:relative;
-	padding: 1px;
-	border: #78fdfd /*light blue*/ solid 2px;
-}
-
-.portalrtxtxt2 {
-	display:inline-block;
-	position:absolute;
-	height: 840px;
-	width: 50%;
-	font-size: 24px;
-	text-align: center;
-	margin-left: 45px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-left: #58595B/*Gray*/ solid 2px;
-	border-right: #58595B/*Gray*/ solid 2px;
-	
-}
-
-.rtxpics2 {
-	display: inline-block;
-	width: 600px;
-	height: 800px;
-	margin-left: 120px;
-	padding-top: 100px;
-}
-
-
-.rtxpics2 img {
-	width: 550px;
-	position:relative;
-	padding: 1px;
-	border: #78fdfd /*light blue*/ solid 2px;
-	
-}
 
 .comphead {
 	
@@ -497,13 +515,58 @@ p2 {
 }
 
 
-@media (max-width: 650px) {
-   
-	.footer {
-        padding: 10px;
- }
+
+@media screen and (max-width: 1200px) {
 	
-	.rtxtxt1 {
+.menu-box {
+		display: flex;
+		
+	}
+
+	.menu {
+		position: absolute;
+		top: 400px;
+		left: 0;
+		margin-top: 300px;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		background: black;
+	
+	}
+
+	#header-menu {
+		margin-top: 25px;
+	
+	}
+	
+	#header-menu {
+		margin-right: 40px;
+	}
+
+
+	#menu-activate ~ .menu {
+		height: 0;
+		margin: 0;
+		padding: 0;
+		transition: height 1s;
+	}
+	
+	#menu-activate:checked ~ .menu {		
+		margin-top: -200px;
+		height: 800px;
+		width: 100vw;
+		transition: height 1s;
+		display: flex;
+	}
+	
+	#menu-activate:not(checked) ~ .menu {
+		display: none;
+	
+	}
+	
+		.rtxtxt1 {
 		width: 90vw;
 		margin-left: 10px;
 		
@@ -511,10 +574,20 @@ p2 {
 	
 	.rtxpix1 img {
 		width: 90vw;
-		
 	}
 	
 	.portalrtx1 {
 		display: inline-block;
 	}
+	
 }
+
+@media screen and (max-width: 650px) {
+   
+	.footer {
+        padding: 10px;
+ }
+	
+
+}
+	
