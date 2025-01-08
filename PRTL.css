@@ -203,7 +203,6 @@ html, body {
 
 .footer a {
 	display: block;
-	height: 100px;
 	margin-left: 30px;
 	margin-top: 80px;
 	
@@ -211,7 +210,6 @@ html, body {
 
 .footer p3 {
 	
-	width: 500px;
 	font-size: 20px;
 	color: white;
 	text-align: center;
@@ -304,7 +302,7 @@ p2 {
 }
 
 .menupic img {
-	width: 1600px;
+	width: 85vw;
 	padding: 1px;
 	border: #78fdfd /*light blue*/ solid 2px;
 }
@@ -473,9 +471,9 @@ p2 {
 #cake {
 	
 	background:url("images/wall.png");
+	width: 100vw;
 	background-repeat: repeat;
-	border-left: solid black 10px;
-	border-right: solid black 10px;
+
 	
 	
 }
@@ -497,7 +495,7 @@ p2 {
 .lie2 {
 	
 	text-align: center;
-	padding-left: 80px;
+
 	margin-top: 30px;
 	
 }
@@ -513,7 +511,7 @@ p2 {
 	
 	text-align: center;
 	margin-top: 10px;
-	padding-right: 110px;
+	
 	
 }
 
@@ -583,6 +581,7 @@ p2 {
 	
 	.rtxpix1 img {
 		width: 90vw;
+		margin-left: 0;
 	}
 	
 	.portalrtx1 {
