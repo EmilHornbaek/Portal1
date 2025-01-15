@@ -189,22 +189,21 @@ html, body {
 	bottom: 0;
 	width: 100vw;
 	background-color: black;
-	margin-bottom: -10px;
-	margin-left: -10px;
-	margin-right: -10px;
-	
+
 }
 
 .footer img {
 	display: inline-block;
-	height: 100px;
-	
+}
+
+.steamlink a {
+	margin-left: 30px;
+	margin-bottom: 20px;
 }
 
 .footer a {
 	display: block;
-	margin-left: 30px;
-	margin-top: 80px;
+	margin-top: 50px;
 	
 }
 
@@ -215,15 +214,50 @@ html, body {
 	text-align: center;
 }
 
+
+
+.steamlink img {
+	
+	height: 150px;
+}
+
+.SoMe {
+	
+	width: 700px;
+	text-align: center;
+	
+}
+
+.SoMe a {
+	
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+.SoMe img {
+
+	height: 100px;
+
+	
+}
+
+.mid a {
+	display: inline-block;
+}
+
+
 .support {
-	padding-top: 90px;
-	padding-right: 30px;
+	
+	text-align: center;
+	padding-bottom: 30px;
 }
 
 .support a {
 	
+	display: block;
 	text-decoration-color: white;
-	height: 20px;
+	
 }
 
 .support a:hover {
@@ -233,7 +267,7 @@ html, body {
 
 .cube {
 	text-align: right;
-	margin-top: 55px;
+	margin-top: 40px;
 	margin-right: 40px;
 	
 	
